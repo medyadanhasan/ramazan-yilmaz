@@ -2,7 +2,7 @@ backend:
   name: github
   repo: medyadanhasan/ramazan-yilmaz      # kullanıcı/repo-adı
   branch: main
-  base_url: https://lambent-meringue-48c65f.netlify.app
+  base_url: https://broken-base-ee4c.mhasangul18.workers.dev
   auth_endpoint: auth
 
 site_url: https://ramazanyilmaz.net
