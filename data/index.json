@@ -6,31 +6,90 @@
     "description": "10 yılı aşkın süredir sivil toplum, gençlik çalışmaları, eğitim ve ulusal/uluslararası proje koordinasyonu alanlarında; stratejik planlama, teşkilat yapılanması ve dijital iletişimle geleceğe değer katıyorum."
   },
   "stats": [
-    { "target": 10, "suffix": "+", "label": "Yıl Deneyim" },
-    { "target": 3, "suffix": "", "label": "Erasmus+ Proje Koordinatörlüğü" },
-    { "target": 6, "suffix": "+", "label": "Kurumsal Görev" },
-    { "target": 8, "suffix": "+", "label": "Sertifika & Eğitim" }
+    {
+      "target": 10,
+      "suffix": "+",
+      "label": "Yıl Deneyim"
+    },
+    {
+      "target": 3,
+      "suffix": "",
+      "label": "Erasmus+ Proje Koordinatörlüğü"
+    },
+    {
+      "target": 6,
+      "suffix": "+",
+      "label": "Kurumsal Görev"
+    },
+    {
+      "target": 8,
+      "suffix": "+",
+      "label": "Sertifika & Eğitim"
+    }
   ],
   "ne_yapiyorum": {
     "title": "Ne <span>Yapıyorum?</span>",
     "subtitle": "Farklı disiplinlerden ekipleri yönetiyor; gençlik, eğitim ve sivil toplum alanlarında sürdürülebilir projeler üretiyorum.",
     "cards": [
-      { "icon": "🇪🇺", "image": "", "title": "AB & Ulusal Projeler", "text": "Erasmus+ KA152 ve KA154 projelerinde koordinatörlük: Hayat Üniversitesi, Gençler Kültür Sofrasında Buluşuyor ve İnsani Yardım Kuruluşları Gençlik Zirvesi." },
-      { "icon": "🤝", "image": "", "title": "STK & Gençlik Yönetimi", "text": "Genç Safa Genel Başkan Yardımcılığı ile Türkiye genelinde gençlik koordinasyonu, eğitim kampları, liderlik programları ve gönüllü yönetimi." },
-      { "icon": "📚", "image": "", "title": "Eğitim & Rehberlik", "text": "Din Kültürü ve Ahlak Bilgisi öğretmenliği, öğrenci rehberliği, kulüp danışmanlığı ve sosyal-kültürel etkinlik planlaması." },
-      { "icon": "📣", "image": "", "title": "Medya & Dijital İletişim", "text": "TARF Düşünce Enstitüsü'nde kurumsal medya yönetimi, üniversite kulüpleri koordinasyonu, akademik söyleşiler, kariyer programları ve medya stratejileri." },
-      { "icon": "🏛️", "image": "", "title": "Kurumsal Yönetim", "text": "Safa Vakfı'nda genel sekreterlik ve yönetici asistanlığı; resmî kurumlarla koordinasyon, kurumsal temsil ve stratejik süreç yönetimi." },
-      { "icon": "🚀", "image": "", "title": "Stratejik Planlama", "text": "Teşkilat yapılanmaları, organizasyon geliştirme, paydaş yönetimi ve çok paydaşlı organizasyonların uçtan uca yönetimi." }
+      {
+        "icon": "🇪🇺",
+        "image": "/assets/images/uploads/img_1084.jpg",
+        "title": "AB & Ulusal Projeler",
+        "text": "Erasmus+ KA152 ve KA154 projelerinde koordinatörlük: Hayat Üniversitesi, Gençler Kültür Sofrasında Buluşuyor ve İnsani Yardım Kuruluşları Gençlik Zirvesi."
+      },
+      {
+        "icon": "🤝",
+        "image": "",
+        "title": "STK & Gençlik Yönetimi",
+        "text": "Genç Safa Genel Başkan Yardımcılığı ile Türkiye genelinde gençlik koordinasyonu, eğitim kampları, liderlik programları ve gönüllü yönetimi."
+      },
+      {
+        "icon": "📚",
+        "image": "",
+        "title": "Eğitim & Rehberlik",
+        "text": "Din Kültürü ve Ahlak Bilgisi öğretmenliği, öğrenci rehberliği, kulüp danışmanlığı ve sosyal-kültürel etkinlik planlaması."
+      },
+      {
+        "icon": "📣",
+        "image": "",
+        "title": "Medya & Dijital İletişim",
+        "text": "TARF Düşünce Enstitüsü'nde kurumsal medya yönetimi, üniversite kulüpleri koordinasyonu, akademik söyleşiler, kariyer programları ve medya stratejileri."
+      },
+      {
+        "icon": "🏛️",
+        "image": "",
+        "title": "Kurumsal Yönetim",
+        "text": "Safa Vakfı'nda genel sekreterlik ve yönetici asistanlığı; resmî kurumlarla koordinasyon, kurumsal temsil ve stratejik süreç yönetimi."
+      },
+      {
+        "icon": "🚀",
+        "image": "",
+        "title": "Stratejik Planlama",
+        "text": "Teşkilat yapılanmaları, organizasyon geliştirme, paydaş yönetimi ve çok paydaşlı organizasyonların uçtan uca yönetimi."
+      }
     ]
   },
   "uzmanlik": {
     "title": "Uzmanlık <span>Alanları</span>",
     "subtitle": "Deneyimlerimle şekillenen temel yetkinliklerim:",
     "chips": [
-      "Stratejik Yönetim", "STK Yönetimi", "Kurumsal Yönetim", "Avrupa Birliği Projeleri",
-      "Erasmus+ Projeleri", "Proje Yazımı ve Yönetimi", "Gençlik Politikaları", "Eğitim Organizasyonları",
-      "Üniversite Kulüpleri Yönetimi", "Kurumsal İletişim", "Medya Koordinasyonu", "Dijital Pazarlama",
-      "Dijital İletişim", "Organizasyon Yönetimi", "Takım Liderliği", "Gönüllü Yönetimi", "Paydaş Yönetimi"
+      "Stratejik Yönetim",
+      "STK Yönetimi",
+      "Kurumsal Yönetim",
+      "Avrupa Birliği Projeleri",
+      "Erasmus+ Projeleri",
+      "Proje Yazımı ve Yönetimi",
+      "Gençlik Politikaları",
+      "Eğitim Organizasyonları",
+      "Üniversite Kulüpleri Yönetimi",
+      "Kurumsal İletişim",
+      "Medya Koordinasyonu",
+      "Dijital Pazarlama",
+      "Dijital İletişim",
+      "Organizasyon Yönetimi",
+      "Takım Liderliği",
+      "Gönüllü Yönetimi",
+      "Paydaş Yönetimi"
     ]
   }
 }
