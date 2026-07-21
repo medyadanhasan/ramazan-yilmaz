@@ -9,7 +9,7 @@ site_url: https://ramazanyilmaz.net
 display_url: https://ramazanyilmaz.net
 
 media_folder: "assets/images/uploads"
-public_folder: "/assets/images/uploads"
+public_folder: "assets/images/uploads"
 
 locale: "tr"
 
