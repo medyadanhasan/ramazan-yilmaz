@@ -1,0 +1,157 @@
+backend:
+  name: github
+  repo: medyadanhasan/ramazanyilmaz      # kullanıcı/repo-adı
+  branch: main
+  # OAuth proxy'nizi kurduktan sonra aşağıdaki satırı açıp kendi worker
+  # adresinizi yazın (kurulum adımları için Claude'un verdiği talimatlara bakın):
+  # base_url: https://ramazanyilmaz-cms-auth.KULLANICI-ADIN.workers.dev
+  # auth_endpoint: auth
+
+site_url: https://ramazanyilmaz.net
+display_url: https://ramazanyilmaz.net
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+locale: "tr"
+
+collections:
+  - name: "anasayfa"
+    label: "Ana Sayfa"
+    files:
+      - file: "data/index.json"
+        label: "Ana Sayfa İçeriği"
+        name: "index"
+        fields:
+          - label: "Hero (Üst Bölüm)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Etiket", name: "tag", widget: "string" }
+              - { label: "İsim (gradient renkli)", name: "title", widget: "string" }
+              - { label: "Unvan", name: "subtitle", widget: "string" }
+              - { label: "Açıklama", name: "description", widget: "text" }
+          - label: "İstatistikler"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Sayı", name: "target", widget: "number", value_type: "int" }
+              - { label: "Sonek (ör. +)", name: "suffix", widget: "string", required: false }
+              - { label: "Etiket", name: "label", widget: "string" }
+          - label: "Ne Yapıyorum Bölümü"
+            name: "ne_yapiyorum"
+            widget: "object"
+            fields:
+              - { label: "Başlık (HTML, <span> kullanılabilir)", name: "title", widget: "string" }
+              - { label: "Alt Başlık", name: "subtitle", widget: "text" }
+              - label: "Kartlar"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "İkon (emoji, görsel yoksa gösterilir)", name: "icon", widget: "string", required: false }
+                  - { label: "Görsel (varsa ikon yerine gösterilir)", name: "image", widget: "image", required: false }
+                  - { label: "Başlık", name: "title", widget: "string" }
+                  - { label: "Açıklama", name: "text", widget: "text" }
+          - label: "Uzmanlık Alanları Bölümü"
+            name: "uzmanlik"
+            widget: "object"
+            fields:
+              - { label: "Başlık (HTML, <span> kullanılabilir)", name: "title", widget: "string" }
+              - { label: "Alt Başlık", name: "subtitle", widget: "string" }
+              - label: "Etiketler"
+                name: "chips"
+                widget: "list"
+                field: { label: "Etiket", name: "chip", widget: "string" }
+
+  - name: "hakkimda"
+    label: "Hakkımda"
+    files:
+      - file: "data/hakkimda.json"
+        label: "Hakkımda İçeriği"
+        name: "hakkimda"
+        fields:
+          - { label: "Başlık (HTML, <span> kullanılabilir)", name: "title", widget: "string" }
+          - { label: "Alt Başlık", name: "subtitle", widget: "string" }
+          - { label: "Profil Fotoğrafı", name: "photo", widget: "image", required: false }
+          - label: "Giriş Paragrafları"
+            name: "intro_paragraphs"
+            widget: "list"
+            field: { label: "Paragraf", name: "paragraph", widget: "text" }
+          - label: "Bilgi Kartları"
+            name: "info_cards"
+            widget: "list"
+            fields:
+              - { label: "İkon (emoji)", name: "icon", widget: "string" }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "İçerik (HTML, <br> ve <strong> kullanılabilir)", name: "html", widget: "text" }
+          - { label: "Sertifikalar Başlığı (HTML)", name: "certificates_title", widget: "string" }
+          - label: "Sertifikalar"
+            name: "certificates"
+            widget: "list"
+            field: { label: "Sertifika", name: "certificate", widget: "string" }
+
+  - name: "deneyim"
+    label: "Deneyim"
+    files:
+      - file: "data/deneyim.json"
+        label: "Deneyim İçeriği"
+        name: "deneyim"
+        fields:
+          - { label: "Başlık (HTML, <span> kullanılabilir)", name: "title", widget: "string" }
+          - { label: "Alt Başlık", name: "subtitle", widget: "string" }
+          - label: "Zaman Çizelgesi"
+            name: "timeline"
+            widget: "list"
+            fields:
+              - { label: "Tarih", name: "date", widget: "string" }
+              - { label: "Ünvan", name: "title", widget: "string" }
+              - { label: "Kurum", name: "org", widget: "string" }
+              - label: "Görevler"
+                name: "items"
+                widget: "list"
+                field: { label: "Görev", name: "item", widget: "string" }
+
+  - name: "projeler"
+    label: "Projeler & Gönüllülük"
+    files:
+      - file: "data/projeler.json"
+        label: "Projeler İçeriği"
+        name: "projeler"
+        fields:
+          - { label: "AB Projeleri Başlığı (HTML)", name: "ab_title", widget: "string" }
+          - { label: "AB Projeleri Alt Başlığı", name: "ab_subtitle", widget: "string" }
+          - label: "AB & Ulusal Projeler"
+            name: "ab_projects"
+            widget: "list"
+            fields:
+              - { label: "Tarih / Etiket", name: "date", widget: "string" }
+              - { label: "İkon (emoji, görsel yoksa gösterilir)", name: "icon", widget: "string", required: false }
+              - { label: "Görsel (varsa ikon yerine gösterilir)", name: "image", widget: "image", required: false }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "text", widget: "text" }
+          - { label: "Gönüllülük Başlığı (HTML)", name: "gonullu_title", widget: "string" }
+          - { label: "Gönüllülük Alt Başlığı", name: "gonullu_subtitle", widget: "string" }
+          - label: "Gönüllülük & Liderlik"
+            name: "gonullu"
+            widget: "list"
+            fields:
+              - { label: "Tarih / Etiket", name: "date", widget: "string" }
+              - { label: "İkon (emoji, görsel yoksa gösterilir)", name: "icon", widget: "string", required: false }
+              - { label: "Görsel (varsa ikon yerine gösterilir)", name: "image", widget: "image", required: false }
+              - { label: "Başlık", name: "title", widget: "string" }
+              - { label: "Açıklama", name: "text", widget: "text" }
+
+  - name: "iletisim"
+    label: "İletişim"
+    files:
+      - file: "data/iletisim.json"
+        label: "İletişim Bilgileri"
+        name: "iletisim"
+        fields:
+          - { label: "Başlık (HTML, <span> kullanılabilir)", name: "title", widget: "string" }
+          - { label: "Alt Başlık", name: "subtitle", widget: "string" }
+          - { label: "Telefon (görünen)", name: "phone", widget: "string" }
+          - { label: "Telefon (tel: linki için, ör. +905351043834)", name: "phone_link", widget: "string" }
+          - { label: "E-posta", name: "email", widget: "string" }
+          - { label: "Adres (HTML, <br> kullanılabilir)", name: "address", widget: "text" }
+          - { label: "Referanslar Metni", name: "referanslar", widget: "string" }

@@ -1,0 +1,81 @@
+{
+  "title": "Mesleki <span>Deneyim</span>",
+  "subtitle": "Sivil toplumdan eğitime, kurumsal yönetimden uluslararası projelere uzanan yolculuğum.",
+  "timeline": [
+    {
+      "date": "2023 — Devam Ediyor",
+      "title": "Yönetici Asistanı",
+      "org": "Safa Vakfı Genel Merkezi",
+      "items": [
+        "Üst düzey yönetim süreçlerinin koordinasyonu",
+        "Kurumsal organizasyonların planlanması",
+        "Yönetim süreçlerinin takibi",
+        "Resmî kurumlarla koordinasyon",
+        "Kurumsal temsil faaliyetleri"
+      ]
+    },
+    {
+      "date": "2023 — Devam Ediyor",
+      "title": "Genel Başkan Yardımcısı",
+      "org": "Genç Safa",
+      "items": [
+        "Türkiye genelindeki gençlik çalışmalarının koordinasyonu",
+        "Eğitim kampları ve liderlik programları",
+        "Gönüllü yönetimi",
+        "Organizasyon geliştirme ve stratejik planlama"
+      ]
+    },
+    {
+      "date": "2023 — Devam Ediyor",
+      "title": "Medya Koordinatörü ve Üniversiteler Koordinatörü",
+      "org": "TARF Düşünce Enstitüsü",
+      "items": [
+        "Kurumsal medya yönetimi",
+        "Üniversite öğrenci kulüplerinin koordinasyonu",
+        "Teknik geziler, akademik söyleşiler ve kariyer programları",
+        "Üniversite iş birlikleri",
+        "Dijital iletişim ve medya stratejileri"
+      ]
+    },
+    {
+      "date": "2022 — 2023",
+      "title": "Din Kültürü ve Ahlak Bilgisi Öğretmeni",
+      "org": "Safa Okulları",
+      "items": [
+        "Eğitim ve öğretim faaliyetleri",
+        "Öğrenci rehberliği",
+        "Sosyal ve kültürel etkinliklerin planlanması",
+        "Kulüp danışmanlığı"
+      ]
+    },
+    {
+      "date": "2021 — 2022",
+      "title": "Genel Sekreter",
+      "org": "Safa Vakfı Genel Merkezi",
+      "items": [
+        "Genel merkez koordinasyonu ve kurumsal yazışmalar",
+        "Organizasyon yönetimi",
+        "Stratejik süreçlerin planlanması",
+        "İnsan kaynağı koordinasyonu"
+      ]
+    },
+    {
+      "date": "2018 — 2021",
+      "title": "İl Başkan Yardımcısı (Gönüllü)",
+      "org": "TÜGVA Kayseri",
+      "items": [
+        "Üniversite ve Ortaokul Koordinatörlüğü",
+        "Gençlik faaliyetlerinin planlanması ve eğitim organizasyonları",
+        "Gönüllü koordinasyonu ve teşkilat geliştirme çalışmaları"
+      ]
+    },
+    {
+      "date": "2018",
+      "title": "Üniversite Mezuniyeti",
+      "org": "Erciyes Üniversitesi — İlahiyat Fakültesi (DKAB Öğretmenliği)",
+      "items": [
+        "Öğrenci kulübü yönetimi, GSB projeleri, kamp liderliği, TGSP faaliyetleri ve sosyal sorumluluk projeleri"
+      ]
+    }
+  ]
+}
