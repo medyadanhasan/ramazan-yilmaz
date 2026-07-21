@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İletişim | Ramazan Yılmaz</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="iletisim">
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <header>
+    <nav class="nav">
+      <a href="index.html" class="logo">Ramazan Yılmaz</a>
+      <button class="menu-btn" aria-label="Menü">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkimda.html">Hakkımda</a></li>
+        <li><a href="deneyim.html">Deneyim</a></li>
+        <li><a href="projeler.html">Projeler & Gönüllülük</a></li>
+        <li><a href="iletisim.html" class="active">İletişim</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="reveal visible" style="padding-top:2rem">
+      <h2 class="section-title" id="iletisim-title"></h2>
+      <p class="section-sub" id="iletisim-subtitle"></p>
+
+      <div class="contact-grid">
+        <div class="card contact-card">
+          <div class="icon">📞</div>
+          <h3>Telefon</h3>
+          <p><a id="phone-link" href="#"></a></p>
+        </div>
+        <div class="card contact-card">
+          <div class="icon">✉️</div>
+          <h3>E-posta</h3>
+          <p><a id="email-link" href="#"></a></p>
+        </div>
+        <div class="card contact-card">
+          <div class="icon">📍</div>
+          <h3>Adres</h3>
+          <p id="address"></p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:2.5rem; text-align:center">
+        <h3>📋 Referanslar</h3>
+        <p id="referanslar"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><span class="foot-grad">Ramazan Yılmaz</span> © 2026 · Gençlik Lideri · STK Yöneticisi · Proje Koordinatörü</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/render.js"></script>
+</body>
+</html>

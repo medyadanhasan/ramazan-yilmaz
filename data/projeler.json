@@ -1,0 +1,16 @@
+{
+  "ab_title": "AB & Ulusal <span>Projeler</span> 🚀",
+  "ab_subtitle": "Koordinatörlüğünü üstlendiğim Avrupa Birliği ve ulusal projeler.",
+  "ab_projects": [
+    { "date": "2024 — 2025 · Erasmus+ KA154", "icon": "🎓", "image": "", "title": "Hayat Üniversitesi", "text": "Proje koordinasyonu, ulusal ortaklık yönetimi, eğitim programlarının planlanması, faaliyet organizasyonlarının yürütülmesi ve raporlama süreçleri." },
+    { "date": "2024 — 2025 · Erasmus+ KA152", "icon": "🍽️", "image": "", "title": "Gençler Kültür Sofrasında Buluşuyor", "text": "Proje yönetimi, katılımcı koordinasyonu, eğitim ve kültürel faaliyetlerin planlanması, kurumsal iş birliklerinin yürütülmesi." },
+    { "date": "2024 — 2025 · Erasmus+ KA154", "icon": "🤲", "image": "", "title": "İnsani Yardım Kuruluşları Gençlik Zirvesi", "text": "Türkiye genelindeki gençlik STK'larının koordinasyonu, zirve organizasyonu, eğitim içeriklerinin hazırlanması, kamu kurumları ve sivil toplum kuruluşları ile koordinasyon." }
+  ],
+  "gonullu_title": "Gönüllülük & <span>Liderlik</span>",
+  "gonullu_subtitle": "Sivil toplum yolculuğumun temelini oluşturan gönüllü görevlerim.",
+  "gonullu": [
+    { "date": "2018 — 2021", "icon": "🤝", "image": "", "title": "TÜGVA Kayseri İl Başkan Yardımcısı", "text": "Üniversite ve Ortaokul Koordinatörlüğü; gençlik faaliyetlerinin planlanması, eğitim organizasyonları, gönüllü koordinasyonu ve teşkilat geliştirme çalışmaları." },
+    { "date": "Üniversite Dönemi", "icon": "🏕️", "image": "", "title": "Kamp Liderliği & GSB Projeleri", "text": "Gençlik ve Spor Bakanlığı projeleri, GSB gençlik projeleri, kamp liderliği ve öğrenci kulübü yönetimi." },
+    { "date": "Üniversite Dönemi", "icon": "💚", "image": "", "title": "TGSP & Sosyal Sorumluluk", "text": "TGSP faaliyetleri, GLEP eğitim programı, sosyal sorumluluk projeleri ve gençlik organizasyonları." }
+  ]
+}
