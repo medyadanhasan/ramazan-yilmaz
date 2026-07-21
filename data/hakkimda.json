@@ -1,17 +1,33 @@
 {
   "title": "Hakkımda <span>✨</span>",
   "subtitle": "Gençlik Lideri · STK Yöneticisi · Proje Koordinatörü · Eğitimci · Kurumsal Yönetici",
-  "photo": "",
+  "photo": "assets/images/uploads/safa5805.jpg",
   "intro_paragraphs": [
     "Yaklaşık on yılı aşan sivil toplum, gençlik çalışmaları, eğitim, kurumsal yönetim ve ulusal/uluslararası proje koordinasyonu deneyimine sahip bir yöneticiyim.",
     "Kariyerim boyunca gençlik politikalarının geliştirilmesi, teşkilat yapılanmaları, eğitim organizasyonları, Avrupa Birliği projeleri, üniversite öğrenci kulüpleri yapılanmaları, medya koordinasyonu, dijital iletişim ve kurumsal yönetim alanlarında aktif sorumluluklar üstlendim.",
     "Ulusal ve uluslararası ölçekte yürütülen projelerde koordinasyon görevleri üstlenmiş; ekip yönetimi, organizasyon geliştirme, stratejik planlama ve kurumsal temsil konularında önemli deneyimler kazandım. Aynı anda farklı görevleri etkin şekilde yönetebilen, çözüm odaklı ve yüksek çalışma temposuna uyum sağlayabilen bir çalışma disiplinine sahibim."
   ],
   "info_cards": [
-    { "icon": "👤", "title": "Kişisel Bilgiler", "html": "📍 Doğum: 01.02.1995, Yahyalı / Kayseri<br>💍 Evli, 1 çocuk babası<br>🚗 B sınıfı sürücü belgesi (aktif araç kullanıcısı)" },
-    { "icon": "🎓", "title": "Eğitim", "html": "<strong>Erciyes Üniversitesi</strong> (2018)<br>İlahiyat Fakültesi — Din Kültürü ve Ahlak Bilgisi Öğretmenliği<br><br><strong>Lise</strong> (2013)<br>Yabancı Dil Bölümü (İngilizce)" },
-    { "icon": "🗣️", "title": "Dil", "html": "<strong>İngilizce</strong><br>Okuma: Orta · Yazma: Orta · Konuşma: Orta" },
-    { "icon": "💻", "title": "Dijital Yetkinlikler", "html": "Microsoft Office · Google Workspace · Canva · Yapay Zekâ Araçları · Dijital Pazarlama · Sosyal Medya Yönetimi · İçerik Yönetim Sistemleri · Sunum Hazırlama" }
+    {
+      "icon": "👤",
+      "title": "Kişisel Bilgiler",
+      "html": "📍 Doğum: 01.02.1995, Yahyalı / Kayseri<br>💍 Evli, 1 çocuk babası<br>🚗 B sınıfı sürücü belgesi (aktif araç kullanıcısı)"
+    },
+    {
+      "icon": "🎓",
+      "title": "Eğitim",
+      "html": "<strong>Erciyes Üniversitesi</strong> (2018)<br>İlahiyat Fakültesi — Din Kültürü ve Ahlak Bilgisi Öğretmenliği<br><br><strong>Lise</strong> (2013)<br>Yabancı Dil Bölümü (İngilizce)"
+    },
+    {
+      "icon": "🗣️",
+      "title": "Dil",
+      "html": "<strong>İngilizce</strong><br>Okuma: Orta · Yazma: Orta · Konuşma: Orta"
+    },
+    {
+      "icon": "💻",
+      "title": "Dijital Yetkinlikler",
+      "html": "Microsoft Office · Google Workspace · Canva · Yapay Zekâ Araçları · Dijital Pazarlama · Sosyal Medya Yönetimi · İçerik Yönetim Sistemleri · Sunum Hazırlama"
+    }
   ],
   "certificates_title": "Sertifikalar & <span>Eğitimler</span>",
   "certificates": [
